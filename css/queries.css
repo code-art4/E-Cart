@@ -1,0 +1,586 @@
+    /* Big tablets to screen size of 1200px */
+    
+    @media only screen and (max-width: 1300px) {
+        html {
+            font-size: 21px;
+        }
+        /*-------------------------------*/
+        /*------------      Header        -------------*/
+        /*-------------------------------*/
+        .header-content a {
+            margin-left: 0;
+        }
+        .top-navigation {
+            padding-top: 20px;
+        }
+        .logo {
+            flex-basis: 5%;
+            padding: 0 30px;
+        }
+        .nav-menu {
+            flex-basis: 70%;
+        }
+        .nav-menu a:link,
+        .nav-menu a:visited {
+            width: auto;
+            margin: auto 40px;
+        }
+        .nav-menu-profile {
+            flex-basis: 25%;
+            text-align: end;
+        }
+        .nav-menu-profile a:link,
+        .nav-menu-profile a:visited {
+            width: auto;
+        }
+        .Login a:link,
+        .Login a:visited {
+            background-color: rgba(255, 110, 0, 0.8);
+            color: white;
+        }
+        /*-------------------------------*/
+        /*------------      About        -------------*/
+        /*-------------------------------*/
+        .about-section {
+            margin: 5% auto 0 auto;
+        }
+        .image {
+            margin-right: 0;
+            width: 30%;
+        }
+        .image img {
+            width: 260px;
+        }
+        .first .image {
+            margin-left: 0;
+        }
+        .first .image img,
+        .second .image img {
+            width: 270px;
+        }
+        .first,
+        .second {
+            padding: 20px;
+        }
+        .second {
+            width: 100%;
+        }
+        .text {
+            width: 70%;
+            margin-left: 50px;
+        }
+        .first .text {
+            margin-right: 50px;
+            margin-left: 0;
+        }
+        .second .text {
+            margin-left: 11%;
+        }
+        /*-------------------------------*/
+        /*------------      Purchase        -------------*/
+        /*-------------------------------*/
+        .purchase p {
+            padding: 20px 0;
+        }
+        .purchase-eggs,
+        .purchase-chicks,
+        .purchase-fullgrown-turkeys {
+            flex-basis: 30%;
+            padding: 0 25px;
+        }
+        /*-------------------------------*/
+        /*------------      Contact        -------------*/
+        /*-------------------------------*/
+        .contact-section {
+            padding: 10px 40px 20px 40px;
+        }
+        .contact-section h2 {
+            width: 32%;
+        }
+    }
+    /* Small tablet to big tablet */
+    
+    @media only screen and (max-width: 1023px) {
+        html {
+            font-size: 20px;
+            overflow-x: hidden;
+        }
+        h1 {
+            font-size: 140%;
+        }
+        h2 {
+            font-size: 125%;
+        }
+        /*-------------------------------*/
+        /*------------      Header        -------------*/
+        /*-------------------------------*/
+        .logo img {
+            width: 40px;
+        }
+        .header-content {
+            width: 60%;
+            margin: 3% 0 0 40px;
+        }
+        .header-content a {
+            width: 36%;
+            height: 10px;
+            padding: 12px 15px 30px 25px;
+        }
+        .top-navigation {
+            padding-top: 13px;
+        }
+        .logo {
+            flex-basis: 5%;
+            padding: 0 30px;
+        }
+        .nav-menu {
+            flex-basis: 70%;
+            text-align: start;
+        }
+        .nav-menu a:link,
+        .nav-menu a:visited {
+            width: 60px;
+            margin: auto 20px;
+        }
+        .nav-menu-profile {
+            flex-basis: 25%;
+            margin-top: -3px;
+        }
+        .nav-menu-profile a:link,
+        .nav-menu-profile a:visited {
+            padding: 13px 15px;
+        }
+        .Login a:link,
+        .Login a:visited {
+            background-color: rgba(255, 110, 0, 0.8);
+            padding: 13px 23px;
+            color: white;
+        }
+        /*-------------------------------*/
+        /*------------      About        -------------*/
+        /*-------------------------------*/
+        .about-section {
+            width: 90%;
+        }
+        .first .image,
+        .second .image {
+            margin-left: 0;
+            height: auto;
+            margin: auto auto;
+        }
+        .first .image img,
+        .second .image img {
+            width: 100%;
+            height: auto;
+        }
+        .second {
+            background: transparent;
+        }
+        .text {
+            width: 60%;
+        }
+        .first .text {
+            margin-right: auto;
+        }
+        .second .text {
+            padding-top: 20px;
+        }
+        /*-------------------------------*/
+        /*------------      Purchase        -------------*/
+        /*-------------------------------*/
+        .purchase {
+            width: 90%;
+            margin: 0px auto;
+        }
+        .purchase-eggs,
+        .purchase-chicks,
+        .purchase-fullgrown-turkeys {
+            flex-basis: 30%;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 0 10px 0 13px;
+        }
+        .purchase-eggs-image,
+        .purchase-chicks-image,
+        .purchase-fullgrown-turkeys-image {
+            width: 40%;
+        }
+        .purchase p {
+            padding: 30px 4px;
+        }
+        /*-------------------------------*/
+        /*------------      Contact        -------------*/
+        /*-------------------------------*/
+        .contact-section {
+            width: 90%;
+        }
+        .contact-section h2 {
+            width: 37%;
+        }
+        /*-------------------------------*/
+        /*------------      Footer        -------------*/
+        /*-------------------------------*/
+        .social-links {
+            flex-basis: 580px;
+            margin-top: -9px;
+        }
+        .social-links a i {
+            padding: 10px 12px;
+            font-size: 80%;
+            margin-right: 0;
+        }
+    }
+    /* Small phones to small tablets */
+    
+    @media only screen and (max-width: 767px) {
+        html {
+            font-size: 19px;
+            overflow-x: hidden;
+        }
+        h1 {
+            font-size: 140%;
+        }
+        h2 {
+            font-size: 125%;
+        }
+        /*-------------------------------*/
+        /*------------      Header        -------------*/
+        /*-------------------------------*/
+        .logo img {
+            width: 30px;
+            margin-top: 7px;
+        }
+        .header-content {
+            width: 60%;
+            margin: -10% 0 0 40px;
+        }
+        .header-content p {
+            display: none;
+        }
+        .header-content a {
+            margin-top: 10px;
+            padding: 13px 17px;
+            width: 32%;
+            height: auto;
+        }
+        .mobile-nav-icon {
+            display: inline-block !important;
+            margin-right: 30px;
+            margin-top: 7px;
+        }
+        .mobile-nav-icon i {
+            color: white;
+        }
+        .top-navigation {
+            float: left;
+        }
+        .top-navigation .header-content a {
+            width: 52%;
+            margin-top: 20px;
+        }
+        .top-navigation {
+            padding-top: 13px;
+            flex-direction: column !important;
+        }
+        .logo {
+            flex-basis: 5%;
+            padding: 0 30px;
+        }
+        .top-navigation .nav-menu {
+            flex-basis: 70%;
+            text-align: start;
+            flex-direction: column !important;
+        }
+        .top-navigation .nav-menu ul li,
+        .top-navigation .nav-menu-profile ul li {
+            text-align: right;
+            display: block !important;
+        }
+        .top-navigation .nav-menu-profile {
+            margin-top: 10px !important;
+        }
+        .top-navigation .nav-menu a:link,
+        .top-navigation .nav-menu a:visited {
+            width: 60px;
+            margin: auto 20px;
+            border: 0 !important;
+        }
+        .top-navigation .nav-menu-profile {
+            flex-basis: 25%;
+            margin-top: -3px;
+        }
+        .top-navigation .nav-menu,
+        .top-navigation .nav-menu-profile {
+            display: none;
+            font-size: 115%;
+        }
+        .nav-menu-profile a:link,
+        .nav-menu-profile a:visited {
+            padding: 13px 15px;
+        }
+        .Login a:link,
+        .Login a:visited {
+            background-color: rgba(255, 110, 0, 0.8);
+            margin-bottom: 10px;
+            padding: 13px 23px;
+            color: white;
+        }
+        .mobile-nav-icon {
+            position: absolute;
+            right: 0;
+        }
+        .mobile-nav-icon:hover,
+        .mobile-nav-icon i:hover {
+            background: transparent;
+        }
+        .sticky .logo img {
+            width: 10%;
+        }
+        .sticky .nav-menu ul li,
+        .sticky .nav-menu-profile ul li {
+            text-align: center;
+            display: block !important
+        }
+        .sticky .mobile-nav-icon i {
+            color: black;
+        }
+        /*-------------------------------*/
+        /*------------      About        -------------*/
+        /*-------------------------------*/
+        .about-section {
+            width: 100%;
+            margin: 10px auto;
+        }
+        .image {
+            height: 220px;
+            width: 80%;
+        }
+        .text {
+            width: 100%;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .first,
+        .second {
+            display: flex;
+            flex-direction: column;
+            padding: 50px;
+            width: 100%;
+        }
+        .second .text {
+            width: 100%;
+            margin: 0px auto 20px auto;
+            text-align: center;
+        }
+        /*-------------------------------*/
+        /*------------      Purchase        -------------*/
+        /*-------------------------------*/
+        .purchase-section {
+            margin-top: -40px;
+        }
+        .purchase {
+            width: 60%;
+            flex-direction: column;
+        }
+        .purchase-eggs-image,
+        .purchase-chicks-image,
+        .purchase-fullgrown-turkeys-image {
+            width: 30%;
+        }
+        .purchase p {
+            padding: 12px 10px;
+        }
+        /*-------------------------------*/
+        /*------------      Contact        -------------*/
+        /*-------------------------------*/
+        .contact-section {
+            width: 100%;
+        }
+        .contact-section h2 {
+            width: 45%;
+        }
+        .contact-section a {
+            width: 25%;
+            height: 40px;
+            padding: auto auto;
+        }
+        /*-------------------------------*/
+        /*------------      Footer        -------------*/
+        /*-------------------------------*/
+        footer {
+            padding: 30px 10px;
+        }
+        footer p {
+            font-size: 70%;
+        }
+        footer nav {
+            display: block;
+        }
+        footer .nav-menu a:link,
+        footer .nav-menu a:visited {
+            width: 4px;
+        }
+        .social-links {
+            text-align: right;
+            margin-top: -20px;
+            width: 80%;
+            margin: -20px -10px -10px auto;
+        }
+        .social-links a {
+            border: 1px solid black;
+            margin-right: -100px;
+        }
+        .fa-facebook:hover {
+            padding: 10px 12px;
+            color: #3b5998;
+        }
+        .fa-pinterest-p:hover {
+            color: #cb2027;
+        }
+        .fa-twitter:hover {
+            color: #55acee;
+        }
+        .fa-instagram:hover {
+            color: #e95950;
+        }
+        .fa:hover {
+            background: white;
+        }
+    }
+    /*Special cases*/
+    
+    @media only screen and (min-width: 605px) {
+        .purchase {
+            width: 100%;
+            flex-direction: row;
+        }
+    }
+    /*------------------------------*/
+    /*------------Media queries for header link ---------*/
+    /*------------------------------*/
+    
+    @media only screen and (max-width: 767px) {
+        .header-content a {
+            margin-top: 10px;
+            padding: 13px 17px;
+            width: 39%;
+            height: auto;
+        }
+    }
+    
+    @media only screen and (max-width: 615px) {
+        .header-content a {
+            margin-top: 10px;
+            padding: 12px 17px;
+            width: 43%;
+            height: auto;
+        }
+    }
+    
+    @media only screen and (max-width: 545px) {
+        .header-content a {
+            margin-top: 10px;
+            padding: 12px 17px;
+            width: 53%;
+            height: auto;
+        }
+    }
+    /* Small phones: from 0 to 480px */
+    
+    @media only screen and (max-width: 480px) {
+        html {
+            font-size: 18px;
+        }
+        /*-------------------------------*/
+        /*------------      Header        -------------*/
+        /*-------------------------------*/
+        header {
+            height: 80vh;
+        }
+        .header-content h1 {
+            font-size: 120%;
+        }
+        .header-content a:link,
+        .header-content a:visited {
+            font-size: 80%;
+            padding: 8px 5px 8px 15px;
+            height: 32px;
+            width: 59%;
+        }
+        /*-------------------------------*/
+        /*------------      Purchase        -------------*/
+        /*-------------------------------*/
+        .purchase {
+            width: 70%;
+        }
+        .purchase-eggs,
+        .purchase-chicks,
+        .purchase-fullgrown-turkeys {
+            box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+        }
+        /*-------------------------------*/
+        /*------------      Contact        -------------*/
+        /*-------------------------------*/
+        .contact-section {
+            margin-top: -20px;
+        }
+        .contact-section h2 {
+            width: 48%;
+        }
+        .form-element {
+            padding: 25px 0;
+            width: 100%;
+        }
+        .form-element label {
+            width: 20%;
+        }
+        .form-element input,
+        .form-element textarea {
+            width: 70%;
+            height: 30px;
+            padding: 10px;
+            border: 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+        }
+        .form-element textarea {
+            border: 1px solid rgba(0, 0, 0, 0.4);
+            height: 90px;
+            resize: none;
+        }
+        .button {
+            position: relative;
+        }
+        .form-element a {
+            position: absolute;
+            top: 20px;
+            left: 60%;
+            transform: translate(-50%, -50%);
+            font-size: 80%;
+            padding: 7px 5px 8px 7px;
+            height: 32px;
+            width: 40%;
+        }
+        /*-------------------------------*/
+        /*------------      Footer        -------------*/
+        /*-------------------------------*/
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 10px;
+        }
+        footer p {
+            font-size: 70%;
+            text-align: center;
+        }
+        footer .nav-menu ul li a {
+            text-align: left;
+        }
+        .social-links {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            text-align: right;
+        }
+        footer .social-links a:link,
+        footer .social-links a:visited {
+            margin: -30px 30px -30px 10px;
+        }
+    }
